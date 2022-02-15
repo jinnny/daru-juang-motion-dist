@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>경기 광주 중앙공원</title>
+  <meta name="keywords" content="경기 광주 중앙공원">
+  <meta name="application-name" content="경기 광주 중앙공원">
+  <meta name="msapplication-tooltip" content="경기 광주 중앙공원">
+  <meta id="meta_og_title" property="og:title" content="경기 광주 중앙공원">
+  <meta name="description" content="경기 광주 중앙공원">
+  <meta property="og:description" content="경기 광주 중앙공원">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="627">
+<link rel="stylesheet" href="/assets/style/style.css">
+
+</head>
+<body>
+<main class="main">
+  <!-- type1-->
+  <section class="main-section">
+    <strong class="logo"><img src="/assets/images/common/logo.png" alt="경기 광주 중앙공원"></strong>
+    <div class="main-slider">
+      <div class="main-slide main-slide1">
+        <div class="main-slide-img-area">
+          <div class="main-slide-img left">
+            <div class="main-slide-text left">
+              <img src="/assets/images/main/visual1-text1.png" alt="" class="main-slide-text-img">
+            </div>
+          </div>
+          <div class="main-slide-img right">
+            <div class="main-slide-text right">
+              <img src="/assets/images/main/visual1-text2.png" alt="" class="main-slide-text-img">
+            </div>
+          </div>
+        </div>
+        <div class="main-slide-bg-area ">
+          <div class="main-slide-img left"></div>
+          <div class="main-slide-img right">
+          </div>
+        </div>
+      </div>
+      <div class="main-slide main-slide2">
+        <div class="main-slide-img-area">
+          <div class="main-slide-img left">
+            <div class="main-slide-text left">
+              <img src="/assets/images/main/visual2-text1.png" alt="" class="main-slide-text-img">
+            </div>
+          </div>
+          <div class="main-slide-img right">
+            <div class="main-slide-text right">
+              <img src="/assets/images/main/visual2-text2.png" alt="" class="main-slide-text-img">
+            </div>
+          </div>
+        </div>
+        <div class="main-slide-bg-area ">
+          <div class="main-slide-img left"></div>
+          <div class="main-slide-img right">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+  window.addEventListener('load', function () {
+    const mainSlide1 = document.querySelector('.main-slide1')
+    const mainSlide2 = document.querySelector('.main-slide2')
+    mainSlide1.classList.add('is--active')
+    setInterval(function () {
+        mainSlide1.classList.toggle('is--active')
+        mainSlide2.classList.toggle('is--active')
+      },
+      2000)
+  })
+</script>
+</body>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>경기 광주 중앙공원</title>
+  <meta name="keywords" content="경기 광주 중앙공원">
+  <meta name="application-name" content="경기 광주 중앙공원">
+  <meta name="msapplication-tooltip" content="경기 광주 중앙공원">
+  <meta id="meta_og_title" property="og:title" content="경기 광주 중앙공원">
+  <meta name="description" content="경기 광주 중앙공원">
+  <meta property="og:description" content="경기 광주 중앙공원">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="627">
+<link rel="stylesheet" href="/assets/style/style.css">
+
+</head>
+<body>
+<main class="main">
+  <section class="main-section-type3">
+    <strong class="logo"><img src="/assets/images/common/logo.png" alt="경기 광주 중앙공원"></strong>
+    <div class="main-type3">
+      <div class="video-area">
+        <div class="video-arch">
+          <div class="video-content">
+            <video autoplay="" loop="" muted="muted" class="video">
+              <source src="/video/video.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    const videoArch = document.querySelector('.video-arch')
+    console.log(videoArch)
+    setTimeout(function () {
+      videoArch.style = 'clip-path: inset(36% 40% round 700px 700px 56px 56px)'
+    },200)
+    setTimeout(function () {
+      videoArch.style = 'clip-path:inset(-28% -18% round 50em 50em 4em 4em)', 'transition-duration: 5s'
+    },1000)
+  })
+</script>
+</body>
